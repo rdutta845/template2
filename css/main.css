@@ -10,11 +10,18 @@
 	height: 30%;
 }
 .sideBar-row1-col1{
-	width: 200px;
+	width: 50%;
+	float: left;
+	clear:left;
+	padding-right: 20px;
 }
 .sideBar-row1-col2{
-	width: 100px;
+	/* width: 50%; */
 	color: white;
+	/* clear:left; */
+	/* float: right; */
+	padding-top: 80px;
+	/* padding-left: 20px; */
 }
 .sideBar-row2{
 	height: 50%;
@@ -28,7 +35,7 @@
 .imcss{
 	width:100px;
 	height:100px;
-	padding:100px 20px 0px 50px;
+	padding: 50px 0px 0px 50px;
 }
 .para1{
 	color: white;
@@ -59,6 +66,25 @@
 	color: white;
 	padding: 30px;
 }
+.b2-row1{
+	display: block;
+}
+.b2-row1-col1{
+	width: 30%;
+	/*height: 100%;*/
+	display: table-cell;
+}
+.b2-row1-col2{
+	width: 70%;
+	/*height: 100%;*/
+	display: table-cell;
+	float: none;
+	padding-top: 0px;
+}
+.padInp{
+	padding: 5px;
+	color: grey;
+}
 .cont1{
 	color:white;
 	font-size: 25px;
@@ -78,27 +104,38 @@
 }
 ul{
 	list-style: none;
-	margin:0px;
-	padding: 0px;
-	overflow: hidden;
-
+	 margin:0px; 
+	padding: 0px; 
+	overflow:hidden;
+	
 }
 li{
-	width: 100%;
+	display:block;
 	padding: 5px 0px;
+	overflow:hidden;
+	font-size:20px;
 }
 li a{
 	text-decoration: none;
 	color:white;
-	padding: 10px 45px;
-	float:left; 
+	padding: 7px 35px;
+	display: block;
+	
 }
 li a:hover{
 	background-color: #1a2d3b;
 }
-i{
+.nf{
 	padding: 2px;
 	padding-right: 17px;
+}
+.nf{
+	padding: 2px;
+	padding-right: 17px;
+	padding-bottom:10px; 
+}
+.comp{
+	padding-bottom:10px; 
 }
 .a1{
 	background-color: #025684;
