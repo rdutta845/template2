@@ -128,11 +128,8 @@ li a:hover{
 .nf{
 	padding: 2px;
 	padding-right: 17px;
-}
-.nf{
-	padding: 2px;
-	padding-right: 17px;
 	padding-bottom:10px; 
+	cursor: pointer;
 }
 .comp{
 	padding-bottom:10px; 
