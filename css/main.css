@@ -67,12 +67,13 @@
 	padding: 30px;
 }
 .b2-row1{
-	display: block;
+	display: table;
 }
 .b2-row1-col1{
 	width: 30%;
 	/*height: 100%;*/
 	display: table-cell;
+	overflow: auto;
 }
 .b2-row1-col2{
 	width: 70%;
@@ -80,6 +81,7 @@
 	display: table-cell;
 	float: none;
 	padding-top: 0px;
+	overflow: auto;
 }
 .padInp{
 	padding: 5px;
