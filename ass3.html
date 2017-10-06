@@ -112,17 +112,13 @@
 	</div>
 	<script>
 		$(document).ready(function(){
-				$(".btnView").click(function()
+				$(".btnView").click(function(event)
 				{
 		  				$("#side").toggleClass("toggle");
+		  				event.stopPropagation();
 
 				});
-				$(".bodyPart").click(function()
-				{
-		  				$("#side").removeClass("toggle");
-
-				});
-				$(".content-class").click(function()
+				$(".row").click(function()
 				{
 		  				$("#side").removeClass("toggle");
 
